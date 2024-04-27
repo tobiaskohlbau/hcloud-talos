@@ -1,0 +1,5 @@
+.direnv
+kubeconfig
+talosconfig
+controlplane.yaml
+worker.yaml

@@ -1,0 +1,8 @@
+apiVersion: "openebs.io/v1beta2"
+kind: DiskPool
+metadata:
+  name: ${NODE}-pool-1
+  namespace: mayastor
+spec:
+  node: ${NODE}
+  disks: ["${DEVICE}"]
